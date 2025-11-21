@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "mobilia",
+      "name": "Cadeira Gamer",
+      "description": "Cadeira ergonômica para jogos",
+      "price": 799.99,
+      "quantity": 15
+    },
+    {
+      "id": 2,
+      "category": "mobilia",
+      "name": "Mesa Gamer",
+      "description": "Mesa ergonômica para jogos",
+      "price": 799.99,
+      "quantity": 15
+    },
+    {
+      "id": 3,
+      "category": "eletronicos",
+      "name": "Monitor 27\"",
+      "description": "Monitor 4K UHD",
+      "price": 1999.99,
+      "quantity": 10
+    }
+  ]
+}
