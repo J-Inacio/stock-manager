@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    /* Agora aplicamos a classe do Tailwind ao elemento <body> do HTML */
+    @apply bg-neutral-800 text-white;
+  }
+
+  /* Opcional: Garante que os componentes usam a fonte definida acima */
+  * {
+    @apply font-mono;
+  }
+}
